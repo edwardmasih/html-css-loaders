@@ -1,11 +1,20 @@
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
 .loader2 {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     /* -webkit-box-reflect: below 1px linear-gradient(transparent, #000500); */
-    margin-bottom: 50px;
     transition: all 0.8s;
+    margin-top: 20px;
 }
 
 .loader2:hover {
@@ -31,12 +40,8 @@
     animation-delay: 0s;
 }
 @keyframes square-anim1 {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left: 100%;
-    }
+    0% {left: -100%;}
+    100% {left: 100%;}
 }
 
 .loader2 span:nth-child(3) {
@@ -49,12 +54,8 @@
     animation-delay: 0s;
 }
 @keyframes square-anim3 {
-    0% {
-        left: 100%;
-    }
-    100% {
-        left: -100%;
-    }
+    0% {left: 100%;}
+    100% {left: -100%;}
 }
 
 .loader2 span:nth-child(2) {
@@ -67,12 +68,8 @@
     animation-delay: 0.5s;
 }
 @keyframes square-anim2 {
-    0% {
-        top: -100%;
-    }
-    100% {
-        top: 100%;
-    }
+    0% {top: -100%;}
+    100% {top: 100%;}
 }
 
 .loader2 span:nth-child(4) {
@@ -85,10 +82,6 @@
     animation-delay: 0.5s;
 }
 @keyframes square-anim4 {
-    0% {
-        bottom: -100%;
-    }
-    100% {
-        bottom: 100%;
-    }
+    0% {bottom: -100%;}
+    100% {bottom: 100%;}
 }

@@ -17,5 +17,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #d1dae3;;
+    background: #d1dae3;
+    font-family: sans-serif;
 }
