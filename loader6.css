@@ -1,5 +1,5 @@
 .container6 {
-    height: 200px;
+    height: 150px;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -8,8 +8,8 @@
 }
 
 .loader6 {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-top: 10px solid #e74c3c;;
     border-radius: 50%;
     position: relative;
@@ -18,8 +18,8 @@
 
 .loader6:before, .loader6:after {
     content: '';
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     left: 0;
     top: -10px;
@@ -37,25 +37,8 @@
     transform: rotate(2400deg);
 }
 
-.loader6 span {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    color: #fff;
-    text-align: center;
-    line-height: 140px;
-    color: #e74c3c;
-    
-    animation: animate 2s linear infinite;
-}
-
 @keyframes spin-roll {
     to{
         transform: rotate(360deg);
-    }
-}
-@keyframes animate {
-    to{
-        transform: rotate(-360deg);
     }
 }
